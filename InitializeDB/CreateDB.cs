@@ -150,7 +150,7 @@ public static void InitializeData ()
                 int pedidoId = pedidoCEN.Nuevo(RestGenNHibernate.Enumerated.Rest.EstadoPedidoEnum.preparado, idCamarero, idMesa, DateTime.Today, idCaja);
                 lineapedidoCEN.NuevaLineaMenu(pedidoId, 20);
 
-                
+                //prueba
             }
             catch (Exception ex)
         {
